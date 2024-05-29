@@ -1,0 +1,27 @@
+
+.nav2{
+    position: absolute;
+    top: 60px;
+    left: 80px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 auto ;
+}
+.nav2 img{
+    width: 100px;
+}
+.nav2 button{
+    border: none;
+    border: 1px solid black;
+    color: gray;
+    font-size: 12px;
+    padding: 8px 30px;
+    border-radius: 20px;
+}
+.nav2 span{
+    background-color:#cfcfcf ;
+    width: 100px;
+    height: 100px;
+}

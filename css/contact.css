@@ -1,0 +1,66 @@
+.contact{
+    width: 80%;
+    height: 100vh;
+    margin: 150px auto;
+    display: flex;
+}
+.contact div{
+    height: 100%;
+}
+.contact .con-img {
+    width: 40%;
+    background-image: linear-gradient(180deg, rgba(0,28,82,0) 65%,#001c52 100%)
+    ,url(https://globaltek.iq/wp-content/uploads/2022/08/c1-200x300.jpg);
+    background-position: center ; 
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px 0px 0px 8px; 
+    overflow: hidden;
+}
+.contact .con-form{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 0px 8px 8px 0px; 
+}
+.contact .con-form h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.contact .con-form p{
+    text-align: center;
+}
+.contact .con-form .bt{
+    background-color: #ed3e5f;
+    color: #f2f2f2;
+    font-size: 12px;
+}
+.contact .con-form .bt:hover{
+    background-color: #797979;
+    
+}
+
+.contact .con-form input , 
+.contact .con-form select , 
+.contact .con-form button{
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 20px;
+  border: none;
+  background-color: #f2f2f2;
+
+} 
+.contact .con-form input::placeholder , 
+.contact .con-form select::placeholder  {
+  color: #797979;
+  font-size: 12px;
+  text-transform: capitalize;
+  color: gray;
+} 
+

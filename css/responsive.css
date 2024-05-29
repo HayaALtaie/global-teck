@@ -1,0 +1,35 @@
+@media screen and (max-width: 1250px) {
+     .nav-links{
+        display: none;
+    }
+    .menu-icon{
+        opacity: 1;
+    }
+    .nav-bar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+        
+  }
+
+
+@media screen and (max-width: 800px) {
+    .header, .nav-button{
+        display: none;
+    }
+
+    .nav-btn2{
+       margin: 50px 65px;
+       width: 80%;
+       border: none;
+       padding: 5px 20px;
+       border: 1px solid grey;
+       border-radius: 20px;
+    }
+}
+ 
+        
+    
+    
+  

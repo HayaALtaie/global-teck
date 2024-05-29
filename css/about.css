@@ -1,0 +1,73 @@
+.about-img {
+    width: 90%;
+    height: 100vh;
+    margin: 150px auto;
+    background-image: linear-gradient(178deg, rgba(48, 123, 163, 0.51) 14.9%, rgba(37, 109, 143, 0.73) 80%),url(https://globaltek.iq/wp-content/uploads/2022/08/ws1-300x200.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px;
+    border-radius: 10px;
+}
+.about-txt{
+    width: 75%;
+}
+.about-txt p{
+    color: #ed3e5f;
+    margin-bottom: 30px;
+}
+.about-txt h1{
+    /* text-align: justify; */
+    color: #fff;
+    font-size:48px;
+    margin-bottom: 30px;
+}
+.about-txt button{
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    background-color: #ed3e5f;
+    padding: 15px 30px;
+    border-radius: 40px;
+}
+.allcards{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.allcards div{
+    height: 480px;
+    width: 350px;
+    background-color: #343e4c;
+    border-radius: 10px;
+}
+.main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main-div h5{
+    text-transform: uppercase;
+    color: #ed3e5f;
+    font-weight: 400;
+
+}
+.main-div p{
+    font-size: 14px;
+    padding: 0 30px;
+    color: #fff;
+   line-height: 25px;
+   
+}
+ .main-div .im{
+    width: 120px;
+    margin-bottom: 10px;
+}

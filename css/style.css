@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Roboto", sans-serif; */
+    font-family: "Epilogue", sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3 !important;
+}
+
+.color{
+    color: #ed3e5f;
+}
+.color-white{
+    color: #fff;
+}
+.size{
+    font-size: 14px;
+    text-align: justify;
+    font-weight: 350;
+
+}
+
+.bord{
+    border: 2px solid red !important;
+}
+
+/* #===================================SECTION ONE======================================# */
+.sec_one{
+    margin-top: 100px;
+    margin-bottom: 120px;
+    height: 500px;
+       
+}
+.container{
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+
+.bg-image_sec1{
+    background-image: url(../images/img1.PNG);
+    background-size: cover;
+    background-position:center;
+}
+.text{
+    padding: 170px 0;
+}
+.p1{
+    color: #ed3e5f;
+    font-weight: 500;
+}
+.p2{
+    color: #797979;
+    font-weight: 500;
+
+}
+.s-button{
+    background-color: #ed3e5f;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 30px;
+    border: none;
+}
+.card-img-top{
+    height: 130px;
+    border-bottom: 3px red solid;
+}
+
+.card_para{
+    font-size: 11px;
+    text-align: justify;
+    font-weight: 600;
+    color: #797979;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+    
+}
+.bg-image-sec2{
+    background-image: url(../images/img2.PNG);
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+/*==========================================SECTION THREE===================================================*/
+.accord{
+    max-width: 500px;
+    padding-top: 100px;
+}
+.contentBx{
+    position: relative;
+    margin: 20px 0;
+    
+}
+.text-accord{
+    color: #797979;
+    font-size: 20px;
+}
+.label{
+    position: relative;
+    color: #ed3e5f;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px;
+    padding-left: 30px;
+    height: 70px;
+}
+
+.span_accord{
+    padding-right: 20px;
+    font-size: 18px;
+}
+.content{
+    position: relative;
+    background-color: #fff;
+    height: 0;
+    overflow: hidden;transition: 0.6s;
+}
+
+/*==============================================section 4================================================*/
+
+.rev{
+    color: #ed3e5f;
+    font-weight: bold;
+    font-size: 70px;
+    margin-bottom: 50px;
+    /* margin: 0 40px 30px; */
+}
+.rev p{
+    font-size: 14px;
+    font-weight: normal;
+    
+}
+
+
+
+/*==============================================section 5================================================*/
+.sec5{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(to right, rgba(148, 35, 71, 0.781), rgba(119, 43, 67, 0.91)),url(https://globaltek.iq/wp-content/uploads/2022/07/pexels-pixabay-38293-300x186.jpg);
+    /* background-image: linear-gradient(to right, rgb(70,3,24,0.95), rgb(70,3,24,0.91)),url(b.jpg); */
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 40px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+      
+}
+.sec5-card{
+    width: 85%;
+    position: absolute;
+    top: -10%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+.car{
+    width: calc(85%/3);
+    height: 200px;
+    background-color: #ed3e5f !important;
+    border-radius: 10px !important;
+    display: flex;
+    align-items: center ;
+    justify-content: center ;
+    flex-direction: column;
+    color: #fff;
+}
+.car-icon{
+    font-size: 35px;
+}
+.car p{
+    font-size: 15px;
+}
+.sec5 .text5{
+    text-align: center;
+    color: white;
+  
+    
+}
+.sec5 .text5 button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    
+}
+.sec5 .text5 button:hover{
+    background-color: #ed3e5f;
+    color: white;   
+}
+
+/*==============================================section 6================================================*/
+.sec6{
+    width: 85%;
+    margin: 0 auto;
+    
+}
+.sec6 h1{
+    font-size: 20px;
+    color: #797979;
+    text-transform: capitalize;
+    padding: 40px;
+    
+}
+.father{
+    width: 100%;
+    margin: 0px auto;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.father div{
+    width: 250px;
+    height: 100px;
+    background-color: #e2e2e2;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+} 
+.sec6 div img{
+    width: 150px;  
+} 
+
+/*==============================================section 7================================================*/
+.sec7{
+    width: 100%;
+    margin-top: 80px;
+    overflow-x: hidden;
+    height: 150vh;
+ 
+}
+
+.sec7 .top{
+    height: 85vh;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.sec7 .top .all-divs {
+    width: calc(100% /3);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.div_txt{
+   position: absolute;
+   top:300px;
+   left:70px;
+   width: 70% ;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   color:#a09d9d;
+   font-size: 12px;
+
+  }
+  
+  .num{
+    font-size: 70px;
+    color: #ed3e5f;
+  }
+  .line{
+    margin-bottom: 30px;
+    width:70%px ;
+    height: 1px;
+    background-color:#797979;
+  }
+
+
+.sec7 .top div:hover, .sec7 .bott div:hover{
+    cursor: pointer;
+    transition: 0.6s;
+    background-size: 110%; 
+}
+.sec7 .top .top-div1{
+      background-image: linear-gradient(180deg, rgba(0,5,14,0),rgba(0,0,0,0.9)),url(https://globaltek.iq/wp-content/uploads/2022/09/خدمات-الصيانة-الميدانية-2-3.jpg);
+      
+}
+
+.sec7 .top .top-div2{
+      background-image: linear-gradient(180deg, rgba(0,5,14,0),rgba(0,0,0,0.9)),url(https://globaltek.iq/wp-content/uploads/2022/09/حلول-الطاقة-المتجددة-2-2.jpg);
+      
+}
+.sec7 .top .top-div3{
+    background-image: linear-gradient(180deg, rgba(0,5,14,0),rgba(0,0,0,0.9)),url(https://globaltek.iq/wp-content/uploads/2022/09/3-681x1024.jpg); 
+}
+
+.sec7 .bott{
+    height: 65vh;
+    overflow-y: hidden;
+    display: flex;
+    
+}
+.sec7 .bott .all-divs2{
+    width: calc(100% /4);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.div_txt2{
+    position: absolute;
+    top: 180px;
+    left: 30px;
+    color: #fff;
+    font-size: 12px;
+   }
+
+
+.sec7 .bott .bott-div4{
+    background-image: linear-gradient(180deg, rgba(0,5,14,0),rgba(0,0,0,0.9)),url(https://globaltek.iq/wp-content/uploads/2022/09/4-682x1024.jpg);
+    
+}
+
+.sec7 .bott .bott-div5{
+    background-image: linear-gradient(180deg, rgba(0,5,14,0),rgba(0,0,0,0.9))
+    ,url(https://globaltek.iq/wp-content/uploads/2022/09/تصميم-مراكز-البيانات-2.jpg);
+    
+}
+.sec7 .bott .bott-div6{
+  background-image: linear-gradient(180deg, rgba(0,5,14,0),rgba(0,0,0,0.9))
+  ,url(https://globaltek.iq/wp-content/uploads/2022/09/تخطيط-الألياف-الضوئية-3.jpg);
+}
+.sec7 .bott .bott-div7{
+    background-image: linear-gradient(180deg, rgba(0,5,14,0),rgba(0,0,0,0.9))
+    ,url(https://globaltek.iq/wp-content/uploads/2022/09/q1.jpg); 
+  }
+
+  /*==============================================section 8================================================*/
+  .sec8{
+    height: 100vh;
+    background-color: #343e4c;
+    width: 100%;
+    overflow: hidden;
+  }
+  .foot-logo{
+    width: 100px;
+  }
+  .form-container{
+    background-color: #ed3e5f;
+    padding: 30px;
+    border-radius: 40px;
+    width: 350px;
+    margin: 20px auto;
+    height:320px;
+  }
+
+  .form-container input , 
+  .form-container select , 
+  .form-container button{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 20px;
+    border: none;
+  } 
+  .form-container input::placeholder , 
+  .form-container select::placeholder  {
+    color: #797979;
+    font-size: 12px;
+    text-transform: capitalize;
+    color: gray;
+  } 
+ 
+  .form-container input:active , 
+  .form-container select:active , 
+  .form-container button:active{
+    border: none;
+  } 
+  .form-container .bt-submit{
+    font-size: 12px;
+    text-transform: capitalize;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+  }
+
+ /*==============================================section 9================================================*/
+ .footer{
+    width:100%;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+   
+   
+
+
+
+
